@@ -15,6 +15,7 @@
 		38693FED1C312EAA002DE5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38693FEB1C312EAA002DE5F4 /* LaunchScreen.storyboard */; };
 		38693FF81C312EAA002DE5F4 /* addCornerRadiusForAllXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38693FF71C312EAA002DE5F4 /* addCornerRadiusForAllXibTests.m */; };
 		386940031C312EAA002DE5F4 /* addCornerRadiusForAllXibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386940021C312EAA002DE5F4 /* addCornerRadiusForAllXibUITests.m */; };
+		386940131C312F08002DE5F4 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 386940121C312F08002DE5F4 /* UIView+CornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		38693FFE1C312EAA002DE5F4 /* addCornerRadiusForAllXibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addCornerRadiusForAllXibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386940021C312EAA002DE5F4 /* addCornerRadiusForAllXibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addCornerRadiusForAllXibUITests.m; sourceTree = "<group>"; };
 		386940041C312EAA002DE5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386940111C312F08002DE5F4 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		386940121C312F08002DE5F4 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				38693FE11C312EAA002DE5F4 /* AppDelegate.m */,
 				38693FE31C312EAA002DE5F4 /* ViewController.h */,
 				38693FE41C312EAA002DE5F4 /* ViewController.m */,
+				386940111C312F08002DE5F4 /* UIView+CornerRadius.h */,
+				386940121C312F08002DE5F4 /* UIView+CornerRadius.m */,
 				38693FE61C312EAA002DE5F4 /* Main.storyboard */,
 				38693FE91C312EAA002DE5F4 /* Assets.xcassets */,
 				38693FEB1C312EAA002DE5F4 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38693FE51C312EAA002DE5F4 /* ViewController.m in Sources */,
+				386940131C312F08002DE5F4 /* UIView+CornerRadius.m in Sources */,
 				38693FE21C312EAA002DE5F4 /* AppDelegate.m in Sources */,
 				38693FDF1C312EAA002DE5F4 /* main.m in Sources */,
 			);
