@@ -504,6 +504,7 @@
 				386940091C312EAA002DE5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3869400A1C312EAA002DE5F4 /* Build configuration list for PBXNativeTarget "addCornerRadiusForAllXibTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				3869400C1C312EAA002DE5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3869400D1C312EAA002DE5F4 /* Build configuration list for PBXNativeTarget "addCornerRadiusForAllXibUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				3869400F1C312EAA002DE5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
