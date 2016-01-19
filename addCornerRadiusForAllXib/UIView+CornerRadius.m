@@ -9,18 +9,12 @@
 #import "UIView+CornerRadius.h"
 #import <objc/runtime.h>
 
-static const void *cornerRadiusKey = &cornerRadiusKey;
-static const void *borderWidthKey  = &borderWidthKey;
-static const void *borderColorKey  = &borderColorKey;
-
 @implementation UIView (CornerRadius)
 
-@dynamic cornerRadius;
-@dynamic borderColor;
 
 - (CGFloat)cornerRadius
 {
-    return [objc_getAssociatedObject(self, cornerRadiusKey) floatValue];
+    return [objc_getAssociatedObject(self, @selector(cornerRadius)) floatValue];
 }
 - (void)setCornerRadius:(CGFloat)cornerRadius
 {
@@ -31,7 +25,7 @@ static const void *borderColorKey  = &borderColorKey;
 
 - (CGFloat)borderWidth
 {
-    return [objc_getAssociatedObject(self, borderWidthKey) floatValue];
+    return [objc_getAssociatedObject(self, @selector(borderWidth)) floatValue];
 }
 - (void)setBorderWidth:(CGFloat)borderWidth
 {
@@ -42,7 +36,7 @@ static const void *borderColorKey  = &borderColorKey;
 
 - (UIColor *)borderColor
 {
-    return objc_getAssociatedObject(self, borderColorKey);
+    return objc_getAssociatedObject(self, @selector(borderColor));
 }
 - (void)setBorderColor:(UIColor *)borderColor
 {
